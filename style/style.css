@@ -22,18 +22,15 @@
     font-style: normal;
     font-weight: 900;
 }
-.discount-container{
-    width: 40%;
-    margin: 10px 450px 125px 450px;
-}
+
 .discount{
     text-align: center;
 }
 .discount-persentage{
     color: #F00;
-    font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 .discount-day{
     color: #F00;
@@ -44,6 +41,7 @@
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 5px;
 }
 
 .party-container{
@@ -118,8 +116,8 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 5px 0px;
-
 }
+
 .coming-title{
     color: #F00;
     font-size: 24px;
@@ -138,8 +136,8 @@
     font-weight: 400;
     width: 50%;
 }
-.coming-img{
-
+.coming-year-container{
+     padding: 0px 5px 35px 400px;
 }
 .coming-year{
     color: #F00;
@@ -270,4 +268,66 @@
     background: #F00;
     border: 0px;
     padding: 24px 56px;
+}
+
+footer{
+    background: #070211;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.contract-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.contract-info{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 120px 0px 30px 0px;
+    width: 60%;
+}
+.number{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.website{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.website-info{
+    padding: 140px 0px 50px 0px;
+}
+.social-link{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fb{
+    margin-right: 30px;
+}
+.instra{
+    margin-right: 20px;
+}
+.twi{
+    margin-right: 20px;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.end-info-one{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0px 20px 0px ;
+}
+.end-info-two{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 30px 0px 20px 0px; 
 }
