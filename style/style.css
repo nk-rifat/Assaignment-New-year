@@ -150,7 +150,7 @@
     font-weight: 400;
     width: 50%;
 }
-
+/* uuuuuuuu */
 .holiday-sale{
     text-align: center;
     margin: 100px 140px;
@@ -177,31 +177,33 @@
     font-weight: 500;
     margin: 0px 266px;
 }
-
-.background-img{
-     background: url('../resources/Rectangle\ 2.png');
-     background-position:bottom center;
-     background-repeat: no-repeat;
-}
 .img-women{
-   padding-bottom: 225px;
-   
+    position: relative;
+    top: 3.5px;
+    right: 110px;
 }
-
 .img-percentage{
-    padding-bottom: 280px;
-   
+   position: relative;
+   z-index: 2;
+   left: 45px;
+   top: -35px;
+
 }
 .img-box{
-    margin-left: 62px;
+    position: relative;
+    top: 210px;
+    left: 20px;
+    z-index: 2;
 }
-
+.img-red{
+   position: relative;
+}
+/* iiiiiiiiiiiii */
 .items-container{
     margin: 120px 280px;
 }
 .items-flex{
-    display: flex;
-    
+    display: flex;   
 }
 .item-head{
     color: #F00;
